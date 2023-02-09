@@ -1808,6 +1808,7 @@ header.offerta-menu .menuright .prenota-coming-soon {
     left: 5%;
   }
 }
+
 .text .ovl-bg .heading-full-img {
   padding: 30px 30px 0 30px;
 }
@@ -1818,7 +1819,13 @@ header.offerta-menu .menuright .prenota-coming-soon {
   margin-top: 30px;
 }
 .text .ovl-bg .sub-heading {
-  margin-top: 30px;
+  margin-top: 30;
+}
+
+@media (max-width: 767px) {
+  .text .ovl-bg .sub-heading {
+    margin-top: 0;
+  }
 }
 
 .site-index .section {
