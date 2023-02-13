@@ -3677,7 +3677,7 @@ div.double-with-padding .portfolio-item.full-padding {
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
-  /*    left: 0;*/
+  left: 0;
   z-index: 9955;
   text-align: center;
 }
@@ -3693,7 +3693,7 @@ div.double-with-padding .portfolio-item.full-padding {
   text-align: center;
   font-size: 28px;
   line-height: 48px;
-  /*display: none;*/
+  display: none;
 }
 #mobile-menu .mobile-prenota {
   display: block;
